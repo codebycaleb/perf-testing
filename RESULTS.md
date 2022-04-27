@@ -33,6 +33,14 @@ It's called after `sensitiveValues` is built and before scrubbing / truncating `
 
 ---
 
+### Secret-scrubber improvement
+
+For this one, I manually implemented https://gitlab.com/zapier/team-developer-platform/secret-scrubber-js/-/merge_requests/7 in my `node_modules` install of secret-scrubber. It helped, but not as much as I thought it would.
+
+### CRIT-371-faster-cleaner
+
+For this one, I checked out the branch from https://github.com/zapier/zapier-platform/pull/542.
+
 ### Stringify, truncate, parse
 
 ```
