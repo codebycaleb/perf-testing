@@ -1,0 +1,3 @@
+Hey! If you want to test out logging performance, look no further! This repo has a test set up to capture how long a `perform` takes  (also noting how long the actual `post_poll` function runs, so you can do the math to see how long we spend logging).
+
+To run the test yourself, clone the repo. Then install via `yarn`. I linked mine to a local `zapier-platform` clone via `yarn link` so I could test out different branches etc. Finally, all tests were run via `yarn test --timeout=60000` and I copied the `perf_test` output generated via `test/triggers/perf_test.js`.
