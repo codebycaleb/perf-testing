@@ -1,11 +1,14 @@
-zapier-platform-core@9.7.3 (42401733): `perf_test: 4.587s`
-zapier-platform-core@12.0.2 (82b496e7): `perf_test: 16.962s`
-master (f2f152d3): `perf_test: 18.438s`
-master (with secret-scrubber improvement): `perf_test: 15.342s`
-CRIT-371-faster-cleaner: `perf_test: 4.536s`
-master (stringify, truncate, parse): `perf_test: 4.553s`
-master (stringified): `perf_test: 4.517s`
-master (only as-is transform): `perf_test: 10.176s`
+| branch/test                                  | result               |
+|----------------------------------------------|----------------------|
+| zapier-platform-core@9.7.3 (42401733)        | `perf_test: 4.587s`  |
+| zapier-platform-core@12.0.2 (82b496e7)       | `perf_test: 16.962s` |
+| master (f2f152d3)                            | `perf_test: 18.438s` |
+| master (with secret-scrubber improvement)    | `perf_test: 15.342s` |
+| CRIT-371-faster-cleaner                      | `perf_test: 4.536s`  |
+| master (stringify, truncate, parse)          | `perf_test: 4.553s`  |
+| master (stringified)                         | `perf_test: 4.517s`  |
+| master (only as-is transform)                | `perf_test: 10.176s` |
+
 ---
 
 For the following implementations, `quickCensor` is called in the following fashion:
